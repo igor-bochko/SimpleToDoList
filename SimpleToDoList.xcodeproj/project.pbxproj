@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		686B1BA01A6FDC2500F34646 /* NSDate+FormattingExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686B1B9F1A6FDC2500F34646 /* NSDate+FormattingExtensions.swift */; };
+		686B1BA21A6FE2CF00F34646 /* ItemColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686B1BA11A6FE2CF00F34646 /* ItemColor.swift */; };
 		68E771CF1A6EB65E008E02E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E771CE1A6EB65E008E02E6 /* AppDelegate.swift */; };
 		68E771D21A6EB65E008E02E6 /* SimpleToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68E771D01A6EB65E008E02E6 /* SimpleToDoList.xcdatamodeld */; };
-		68E771D41A6EB65E008E02E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E771D31A6EB65E008E02E6 /* ViewController.swift */; };
+		68E771D41A6EB65E008E02E6 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E771D31A6EB65E008E02E6 /* AddItemViewController.swift */; };
 		68E771D71A6EB65E008E02E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68E771D51A6EB65E008E02E6 /* Main.storyboard */; };
 		68E771D91A6EB65E008E02E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68E771D81A6EB65E008E02E6 /* Images.xcassets */; };
 		68E771DC1A6EB65E008E02E6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68E771DA1A6EB65E008E02E6 /* LaunchScreen.xib */; };
 		68E771E81A6EB65E008E02E6 /* SimpleToDoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E771E71A6EB65E008E02E6 /* SimpleToDoListTests.swift */; };
+		68E771F21A6EBC06008E02E6 /* ItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E771F11A6EBC06008E02E6 /* ItemsTableViewController.swift */; };
+		68E771F41A6EC060008E02E6 /* HTXCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E771F31A6EC060008E02E6 /* HTXCoreDataManager.swift */; };
+		68E771F81A6EC55A008E02E6 /* HTXToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E771F71A6EC55A008E02E6 /* HTXToDoItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +32,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		686B1B9F1A6FDC2500F34646 /* NSDate+FormattingExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+FormattingExtensions.swift"; sourceTree = "<group>"; };
+		686B1BA11A6FE2CF00F34646 /* ItemColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemColor.swift; sourceTree = "<group>"; };
 		68E771C91A6EB65E008E02E6 /* SimpleToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68E771CD1A6EB65E008E02E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68E771CE1A6EB65E008E02E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68E771D11A6EB65E008E02E6 /* SimpleToDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleToDoList.xcdatamodel; sourceTree = "<group>"; };
-		68E771D31A6EB65E008E02E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		68E771D31A6EB65E008E02E6 /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
 		68E771D61A6EB65E008E02E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		68E771D81A6EB65E008E02E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		68E771DB1A6EB65E008E02E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		68E771E11A6EB65E008E02E6 /* SimpleToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleToDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68E771E61A6EB65E008E02E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68E771E71A6EB65E008E02E6 /* SimpleToDoListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleToDoListTests.swift; sourceTree = "<group>"; };
+		68E771F11A6EBC06008E02E6 /* ItemsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsTableViewController.swift; sourceTree = "<group>"; };
+		68E771F31A6EC060008E02E6 /* HTXCoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTXCoreDataManager.swift; sourceTree = "<group>"; };
+		68E771F71A6EC55A008E02E6 /* HTXToDoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTXToDoItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		686B1B9C1A6FDB7B00F34646 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				686B1B9F1A6FDC2500F34646 /* NSDate+FormattingExtensions.swift */,
+				686B1BA11A6FE2CF00F34646 /* ItemColor.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		68E771C01A6EB65E008E02E6 = {
 			isa = PBXGroup;
 			children = (
@@ -79,8 +98,10 @@
 		68E771CB1A6EB65E008E02E6 /* SimpleToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				686B1B9C1A6FDB7B00F34646 /* Helpers */,
+				68E771F61A6EC48A008E02E6 /* Controllers */,
+				68E771F51A6EC480008E02E6 /* Model */,
 				68E771CE1A6EB65E008E02E6 /* AppDelegate.swift */,
-				68E771D31A6EB65E008E02E6 /* ViewController.swift */,
 				68E771D51A6EB65E008E02E6 /* Main.storyboard */,
 				68E771D81A6EB65E008E02E6 /* Images.xcassets */,
 				68E771DA1A6EB65E008E02E6 /* LaunchScreen.xib */,
@@ -113,6 +134,24 @@
 				68E771E61A6EB65E008E02E6 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68E771F51A6EC480008E02E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				68E771F71A6EC55A008E02E6 /* HTXToDoItem.swift */,
+				68E771F31A6EC060008E02E6 /* HTXCoreDataManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		68E771F61A6EC48A008E02E6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				68E771D31A6EB65E008E02E6 /* AddItemViewController.swift */,
+				68E771F11A6EBC06008E02E6 /* ItemsTableViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,8 +254,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68E771D41A6EB65E008E02E6 /* ViewController.swift in Sources */,
+				686B1BA21A6FE2CF00F34646 /* ItemColor.swift in Sources */,
+				68E771D41A6EB65E008E02E6 /* AddItemViewController.swift in Sources */,
+				68E771F41A6EC060008E02E6 /* HTXCoreDataManager.swift in Sources */,
+				68E771F81A6EC55A008E02E6 /* HTXToDoItem.swift in Sources */,
+				686B1BA01A6FDC2500F34646 /* NSDate+FormattingExtensions.swift in Sources */,
 				68E771CF1A6EB65E008E02E6 /* AppDelegate.swift in Sources */,
+				68E771F21A6EBC06008E02E6 /* ItemsTableViewController.swift in Sources */,
 				68E771D21A6EB65E008E02E6 /* SimpleToDoList.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +453,7 @@
 				68E771ED1A6EB65E008E02E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68E771EE1A6EB65E008E02E6 /* Build configuration list for PBXNativeTarget "SimpleToDoListTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +462,7 @@
 				68E771F01A6EB65E008E02E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
